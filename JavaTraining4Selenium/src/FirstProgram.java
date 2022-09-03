@@ -2,8 +2,18 @@
 public class FirstProgram {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-System.out.println("hello every one... this is kranthi kumar from cananda");
-	}
+		
+		// below line of code is to print the text
+		System.out.println("hello ");
+		
+		/* i am writing this
+		 * to understand 
+		 * multi line
+		 * comments
+		 * 
+		 */
 
+
+	}
+	
 }

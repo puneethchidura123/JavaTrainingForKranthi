@@ -1,0 +1,26 @@
+Data Type : data specified the type of data which the variable is going to store
+
+Primitive Data Types
+
+8 types of primitive datatypes
+
+
+1 byte = 8 bits
+
+byte  :  1 byte - range is : -128 to 127 : whole numbers
+short :  2 byte - range is : -32,768 to 32,767 : whole numbers
+int   :  4 byte - range is : 2 cr : : whole numbers
+long  :  8 byte - range is : 4 cr : : whole numbers
+float :  4 byte - range is : 6 to 7 decmial places   : : fractional/decimal numbers  ex : 12.123456
+double: 8 byte - range is : 15 decimal places   : : fractional/decimal numbers  ex : 12.123456
+char  :   2 bytes - only single charecters ex : a,b,c,d .... etc 
+boolean : 1 bit - true or false
+
+ 
+Non Primitive Data Types
+
+these are created by the programmer - 
+
+Strings, Arrays, classes etc...
+
+

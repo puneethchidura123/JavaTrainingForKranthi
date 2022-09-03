@@ -1,0 +1,39 @@
+String : is a non primitive data 
+
+string are used to represent text or a group of characters together
+
+
+String s = "hello";
+
+h - 0
+e - 1
+l - 2
+l - 3
+o - 4
+
+Note : a string is always enclosed  in b/w  double quotes
+
+methods of string 
+
+ length() : no of characters in a string
+ 
+ toUpperCase() : converts the given string to upper case completely
+ 
+ toLowerCase() :   converts the given string to lower case completely
+ 
+ indexOf() :   returns the first index of a particular character.  
+ 
+ 
+ 
+ more operation/methods o f string  @   "https://www.w3schools.com/java/java_ref_string.asp"
+ 
+ 
+ 
+ Conctenation :  addition   
+ 
+ +  is the concatenation operator on string 
+ 
+ 
+ String s1 = "hello", s2 = "world";
+ 
+ 

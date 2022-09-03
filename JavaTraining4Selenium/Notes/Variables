@@ -1,0 +1,16 @@
+Variables : these are used to store and process the data.
+
+types of variables.
+
+String : to store text;
+integer : these are used to store whole numbers.
+character : these are used to store only alphabets
+floating : these are used to store decimal values
+boolean : this will store true and false
+
+
+
+<data type> <vaiable name> = <value of the variable>;
+
+
+final variables : when a variables is declared as final we cannot change the value assigned to it.

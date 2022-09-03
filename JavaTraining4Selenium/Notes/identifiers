@@ -1,0 +1,10 @@
+identifiers : evry variable in java must be unique, variable names are identifiers
+
+rules for identifiers in java :
+
+1) identifiers names should contain letters(upper case and lower case), digits, underscore and dollar sign
+2) identifier name should always begin with a letter
+3) identifiers cannot have spaces
+4) reserved words cannot be used as identifiers - 53 words in java
+
+

@@ -1,0 +1,61 @@
+operators : in java operators are used to perform operations on variables
+
+A) Arithametic operators : these are used to perform arithmetic operations
+
+additon : +
+substraction :  -
+multiplication:  *
+division : /
+modulus : % 
+
+
+B) Assignment Operators :   these are used for assigning values to variables
+
+
+=   : to assign value directly 
+
++= : to increment and assign
+
+-= : to decrement and assign
+
+*= : to multiply and assign
+
+/= : to divide and assign
+
+%= : to modulus and assign
+
+
+C) Comparision operators : these are used for comparision of values between variables
+
+
+ ==  : to chec if both values are equal
+ 
+ !=  : not equal to 
+ 
+ > : greater than
+ 
+ < : less than
+ 
+ >= : greater than or equal to
+ 
+ <= : less than or equal to
+ 
+ 
+ D)  Logical Operators : these are used to perform logical opeartion i b/w variables
+ 
+ 
+ && : logical and
+ 
+ || : logical or
+ 
+ ! : logical not
+ 
+  
+ 
+  
+
+ 
+
+
+
+ 

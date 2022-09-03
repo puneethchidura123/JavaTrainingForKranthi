@@ -1,0 +1,11 @@
+Type Casting : assigning one primitive data type value to another primitive
+
+widening : smaller data type  ==>> larger data type     short(2 bytes) to float(4 bytes)
+short s = 12;
+float f = s;
+
+
+narrowing(compressing) :  larger data type ==>> smaller data type      float(4 bytes) to short(2 bytes)
+
+float f = 12.456f;
+short s = (short)f;
