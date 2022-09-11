@@ -1,0 +1,74 @@
+
+
+WebElement Types :
+
+Link  :
+
+Buttons :
+
+Text Box :
+
+Drop Down :
+
+Check Box :
+
+Radio Buttons :
+
+
+
+
+1) Create a WebElement Object using any locator (xpath)
+
+2)Use the created WebElement object and perform the action
+
+
+
+Link  :
+
+A) Clicking : 
+.click() is the method to be called using the created WebElement
+
+Ex :
+
+WebElement specials_link = driver.findElement(By.xpath("//*[@id=\"main_menu_top\"]/li[1]/a/span"));
+		
+specials_link.click();
+
+
+B) getting link text :
+
+WebElement specials_link = driver.findElement(By.xpath("//*[@id=\"main_menu_top\"]/li[1]/a/span"));
+String link_text = specials_link.getText();
+System.out.println(link_text);
+
+
+
+Buttons :
+
+A)
+
+// clicking on Login_Or_Register_Link
+		WebElement Login_Or_Register_Link = driver.findElement(By.xpath("//*[@id=\"customer_menu_top\"]/li/a"));
+		Login_Or_Register_Link.click();
+		
+		Thread.sleep(wait_time);
+		
+		// clicking on Continue_Button
+		WebElement Continue_Button = driver.findElement(By.xpath("//*[@id=\"accountFrm\"]/fieldset/button"));
+		Continue_Button.click();
+		
+		
+B) WebElement Continue_Button = driver.findElement(By.xpath("//*[@id=\"accountFrm\"]/fieldset/button"));
+		String  Button_Text =    Continue_Button.getText();
+		System.out.println(Button_Text);
+		
+		
+
+		
+		
+		
+		
+
+
+
+

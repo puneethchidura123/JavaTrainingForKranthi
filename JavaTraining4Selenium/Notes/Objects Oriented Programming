@@ -1,0 +1,146 @@
+ Object Oriented Programming is creating classes and objects
+ 
+ 
+ class : a template / format for creating objects
+ object :  instance of a class
+ 
+ 
+ vehicle as a class
+ objects of vehicle class : car,cycle,bike, truck, bus, train
+ 
+ 
+ Fruits as a class
+ object of Fruits class : kiwi, berries, apple, pomogranate, sapota, grape.... 
+ 
+ 
+ HumanBeings as a class
+ objects of HumanBeings : Male, Female, Trans.... 
+ 
+ 
+ creation of object for a class
+ 
+ 
+ class Fruit
+ {
+ 
+ Fruit kiwi = new Fruit();
+ Fruit Apple = new Fruit();
+ 
+ }
+ 
+ 
+ 
+ class attributes :   class properties are class attributes .
+ 
+ static attributes :  these attributes are common for all objects of class. we don't need object to access these. we can access with the class name
+ instance attributes :  these attributes are not common for all objects of class, in stead they differ from one object to other . 
+                       we need object to access these. 
+ 
+ class methods :   actions which are performed by the objects of a class. 
+ 
+ 
+ static methods : these methods/actions are common for all objects of class. we don't need object to access these. we can access with the class name
+ instance methods :  these methods/actions are not common for all objects of class, n stead they differ from one object to other
+                     we need object to access these. 
+                     
+                     
+Constructor :  it is a special method which is executed at the time of object creation
+
+name of the constructor should be same as the name of class.  
+
+
+
+
+Encapsulation : it is a mechanism of wrapping the vaiables and methods in single unit.  some variables of a class can be hidden from another classes. 
+                this will help us in hiding the sensitive data and acheive security. 
+                
+                
+                
+Inheritence ::   it is for reusability . thru inheritance we can resuse certain methods and variables/attributes belonging to one class into an another class
+
+
+Key word : extends
+
+Sub Class (child class) :   which inherits/extends and another class   ex : Child inherits Parent
+
+Super class (parent class) :  the class which is being inherited ex : Parent is inherited by child. 
+ 
+ 
+ 
+ class Parent
+ {
+ }
+ 
+ 
+ class Child extends Parent 
+ {
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ Polymorphism :  one things appearing in many forms.   
+ 
+ 
+ 
+ Method Overloading :   same method appearing multiple times with multiple sugnatures in the same class   
+ 
+ 
+ class Overloading
+ {
+ 
+ int add(int a, int b)
+ {
+ }
+ 
+ 
+ float add(float a, float b)
+ {
+ }
+ 
+ }  
+ 
+ 
+ 
+ Method Overriding :   same method appearing multiple times with same signatures in the parent and child class
+  
+  
+  
+ 
+ Abstraction : is the process of hiding ceertain details and only showing the necessary information
+ 
+ key word : abstract
+ 
+ Abstract Methods :   it is a normal java method without a method body.       
+ Abstract Classes :    it is a normal java class with a minimum of one abstract method 
+ 
+ Interfaces :    interface contain only abstract classess and no concrete classes.
+ 
+ 
+    
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+  
+ 
+                 
+                
+                
+                
+                 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 

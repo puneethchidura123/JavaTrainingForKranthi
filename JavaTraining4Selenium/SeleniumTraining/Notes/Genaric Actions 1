@@ -1,0 +1,47 @@
+
+
+// setting up system property for chrome driver
+
+System.setProperty("webdriver.chrome.driver", "D:\\Trainings\\Testing for Kranthi\\Java Training\\JavaTrainingForKranthi\\With_Java\\BrowserDrivers\\chromedriver.exe");
+
+
+// initialize chrome driver
+
+WebDriver driver = new ChromeDriver();
+
+WebDriver : selenium java interface
+ChromeDriver : this is a selenium java class implementing WebDriver interface. 
+
+Note : WebDriver's parent interfact is "SearchContext"
+
+SearchContext (I)<<---WebDriver (I)<<--ChromeDriver (C)
+
+
+// to implement hard wait 
+
+
+Thread.sleep(wait_time);  // wait_time should be milliseconds
+
+
+// navigating to URL
+
+driver.get("url"); // url has to be a string
+
+
+// maximising the window
+		
+driver.manage().window().maximize();
+
+
+// close the browser window
+
+driver.close(); 
+
+
+
+
+
+
+
+
+ 

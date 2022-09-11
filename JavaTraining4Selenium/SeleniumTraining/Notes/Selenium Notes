@@ -1,0 +1,51 @@
+Automation Testing : testing any software with the help of any automation tools
+
+Selenium : an open source and free ware  web based automation tool.
+
+
+Selenium supports java,c#,python,ruby, java script etc.
+
+
+selenium itself is a suite of tools. There are 4 components in selenium
+
+1) IDE -integrated development environment
+2) RC - Remote control
+3) Webdriver -
+4) Grid -
+
+
+
+Selenium Webdriver Architecture :
+==================================
+
+
+
+client server model
+
+
+client : ide(eclipse/note pad/) + machine 
+
+server : browser driver (chrome driver, gekodriver{firefox},safari,opera,IE) 
+
+
+
+1) as a programer/automation tester we write code and run it from client.
+2)whole code is converted to JSON format
+3) it is sent to server(browser driver)  thru a JSON wired protocol over internet
+4) server(browser driver) receives the JSON and coverts it into executable instructions and passes to browser
+5)browser receives the instructions and executes them. this is the automation execution
+6) if there are errors the same process is repeated in reverse
+
+
+
+code for some generic actions in selenium
+
+
+
+
+ 
+
+
+
+
+

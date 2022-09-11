@@ -1,0 +1,55 @@
+
+
+Locators : these are used to identify the webelemnts on a web page
+
+ID
+Name
+ClassNme
+Tag Name
+Link Text
+Partial Link Text
+======
+Xpath
+=====
+Css
+
+
+
+India/Telangana/Hyderabad/Kukatpally/SP Nagar/Road no : 13/plot no : 26/AR residency/2 nd floor/flat no : 202
+
+India/Telangana/Hyderabad/Kukatpally/SP Nagar/Road no : 18/plot no : 26/AR residency/2 nd floor/flat no : 202
+
+
+aadhar no : 25154531531321
+
+
+//person[@aadhar no = '25154531531321']
+
+
+
+Xpath :
+
+
+xpath for the login or register link available at "https://automationteststore.com/"  "//*[@id="customer_menu_top"]/li/a"
+
+
+xpath for the Account link available at "https://automationteststore.com/"  "//*[@id="main_menu_top"]/li[2]/a/span"
+
+
+xpath for the Home link available at "https://automationteststore.com/"  "//*[@id="categorymenu"]/nav/ul/li[1]/a"
+
+
+
+Absolute Xpath : Lengthy and it is not recommened
+
+Relative Xpath : Short and recommended 
+
+
+
+
+
+
+
+
+
+   

@@ -1,0 +1,49 @@
+
+Limitations od arrays:
+======================
+
+Arrays can only store homogeneous data type
+Arrays do not have any ready method support
+Arrays are not dynamic
+Array are not built on any standard data structures.
+
+
+
+Collection :   when we want to represent a group of heterogeneous types in a single enity the we can choose collections.
+
+
+collection is a framework in java. it has multiple interfaces and classes. 
+
+
+
+"collection"  is parent interface.
+
+
+1) List (I) :   it is a child interface of collection.  in list duplicates are allowed and order of insertion is preserved.
+
+A) Array List(c) : implementation class of List Interface. it is used when we want to retrive data with high frequency.  
+B) Linked List(c) :   implementation class of List Interface . it is used when we want to add/delete/modify data with high frequency.
+
+
+
+2) Set (I) :  it is a child interface of collection. in list duplicates are not allowed and order of insertion is not preserved.
+
+A) HashSet :  implementation class of set Interface. order of insertion is not preserved
+
+
+B) LinkedHashSet : implementation class of set Interface. order of insertion is preserved
+
+3) Queue (I) :     it is a child interface of collection.   when we want some data to be stored prior to processing .  
+
+A) Priority Queue(c) :
+B) Blocking Queue(c) :
+C) Priority Blocking Queue(c) :
+D) Linked Blocking Queue(c) : 
+
+4) Map(I) :     it is not a child interface of collection.  each entry in map is in the form of <Key,Value> pairs. 
+
+    
+A) Hash Map(c) :  order of insertion is not preserved.  duplicate keys are not allowed but duplicate values are allowed.  it is non synchronized.  
+B) Hash Table(c) :  order of insertion is not preserved.  duplicate keys are not allowed but duplicate values are allowed.   it is synchronized. one after the other in accessing
+
+

@@ -1,0 +1,27 @@
+Arrays : non prmitive data types which can hold 
+
+
+using arrays we can represent multiple values of a particular data type in a single variable
+
+
+
+<data type>[] <array name> = {<array values};
+
+
+int[] integer_array = {1,2,3,4,5,6,7,8,9};
+
+
+
+<data type>[] <array name> = new <data type>[size];
+int[] interger_array = new int[3];
+
+
+
+Accessing values from array :
+============================
+
+
+using indexes
+
+
+index of an array will start from zero till length-1;

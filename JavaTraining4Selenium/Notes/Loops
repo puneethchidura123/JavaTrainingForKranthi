@@ -1,0 +1,51 @@
+ Loops in java are used to execute one statement / a particular block of code multiple time
+ 
+ 
+ for :
+ =====
+ 
+ initalization :   setting up the value 
+ conditon : we perform the check on a particular condition and will execute the loop body only if the condition is true
+increment/decrement :  continuity of the loop
+
+
+for(initalization;condition;increment/decrement)
+{
+
+body of the loop
+
+}
+ 
+ 
+ while :
+ // entry controlled loop
+ 
+ while(conditon)
+ {
+ // body of the loop
+ }
+ 
+ 
+ do.. while :
+ 
+ 
+ // exit controlled loop
+ 
+ 
+ do
+ {
+ // loop body;
+ }while(condition);
+ 
+ 
+ 
+ 
+ for each :   for each loop in java is used with arrays and collections
+ 
+ 
+ for(<data type> <variable name>:<array name>)
+ {
+ }
+ 
+ 
+ 
