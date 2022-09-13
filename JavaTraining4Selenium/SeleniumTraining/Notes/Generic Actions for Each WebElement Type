@@ -1,6 +1,7 @@
 
 
 WebElement Types :
+===================
 
 Link  :
 
@@ -63,6 +64,69 @@ B) WebElement Continue_Button = driver.findElement(By.xpath("//*[@id=\"accountFr
 		System.out.println(Button_Text);
 		
 		
+Text Box :
+
+
+//entering text into  a text box
+		WebElement FirstName_TextBox = driver.findElement(By.xpath("//*[@id=\"AccountFrm_firstname\"]"));
+		// entering the text
+		FirstName_TextBox.sendKeys("Kranthi Kumar");
+		Thread.sleep(wait_time);
+		//clear the text in text box
+		FirstName_TextBox.clear();
+		Thread.sleep(wait_time);
+		FirstName_TextBox.sendKeys("Kumar Kranthi");
+
+
+
+
+Drop Down :
+
+we can select an option in drop down by index/value/Visibletext
+
+
+// Dropdown Automation
+		
+		WebElement Country_DropDown = driver.findElement(By.xpath("//*[@id=\"AccountFrm_country_id\"]"));
+		
+		Select CountryDropDown = new Select(Country_DropDown);
+		
+		
+		//CountryDropDown.selectByIndex(1);
+		
+		//CountryDropDown.selectByValue("13");
+		
+		CountryDropDown.selectByVisibleText("Bangladesh");
+
+
+
+
+Check Box : this is same as button
+
+
+
+ScreenShot : 
+
+1)create an object of take screenshot 
+
+
+TakeScreenShot s = (TakeScreenShot)driver;
+
+
+2)call the method "getScreenshotAs()" using the TakeScreenShot and mention the output type
+
+File f1 = s.getScreenShotAs(OutputType.FILE);
+
+
+3) put the taken screenshot in a proper file
+
+File f2 = new File("D:\Trainings\Testing for Kranthi\Java Training\JavaTrainingForKranthi\With_Java\ScreenShots\kranthi.jpg");
+FileUtils.copyFile(f1,f2);
+
+
+
+
+
 
 		
 		

@@ -1,0 +1,38 @@
+ API : Application Programming Interface
+ 
+ 
+ 
+ 
+ 3 tire architechure
+ 
+ Front End  : UI of any application
+ 
+ Business Layer(API)  : 
+ 
+ 1)Business Layer will take the requests from front end , submit to the back end. 
+ 2)back end will take the request and respond back. 
+ 3)business layer will give the response back to front end
+  
+
+ 
+ Back End : data base and etc 
+ 
+ 
+ 
+ 
+ 4 types of API request's
+ 
+ GET : to read data
+ POST : to create data
+ PUT : modify the data
+ DELETE : remove the data
+ 
+ CRUD : CREATE  READ   UPDATE   DELETE
+ 
+ 
+ 
+ API Contract :  document with all the details of API
+ 
+ 
+ 
+ 
